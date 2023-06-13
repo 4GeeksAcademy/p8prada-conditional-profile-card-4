@@ -59,6 +59,7 @@
   color: #999;
 }
 .widget h1 {
+  text-transform: capitalize;
   margin: 60px 0 20px;
   font-size: 26px;
   color: #000;
@@ -86,7 +87,8 @@
   padding: 5px 6px;
   color: #fff;
   cursor: pointer;
-  text-align: center;
+  text-align: start;
+  text-transform: lowercase;
   border-bottom: 1px solid #2cd5ca;
   transition: background-color 0.3s;
 }
